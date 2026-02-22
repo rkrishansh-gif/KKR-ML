@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "263973147754",
+    "project_id": "kkr-ml",
+    "storage_bucket": "kkr-ml.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:263973147754:android:19187f605ec0cbcc3e2613",
+        "android_client_info": {
+          "package_name": "com.example.kkr_ml_classes"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB0hipPRO-jgAG9ar1IgDigRWgdsGtgvOg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

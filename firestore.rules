@@ -1,0 +1,28 @@
+// This is firestore.rules - paste this entire code
+rules_version = '2';
+service cloud.firestore {
+  match /databases/{database}/documents {
+    function isAuthenticated() {
+      return request.auth != null;
+    }
+    
+    function hasBatchAccess(batchId) {
+      return exists(/databases/$(database)/documents/batches/$(batchId)/students/$(request.auth.uid));
+    }
+    
+    match /batches/{batchId} {
+      allow read: if isAuthenticated();
+      allow write: if false;
+      
+      match /lectures/{lectureId} {
+        allow read: if isAuthenticated() && hasBatchAccess(batchId);
+        allow write: if false;
+      }
+      
+      match /students/{studentId} {
+        allow read: if isAuthenticated() && studentId == request.auth.uid;
+        allow write: if false;
+      }
+    }
+  }
+}
