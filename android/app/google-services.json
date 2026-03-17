@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "263973147754",
+    "project_id": "kkr-ml",
+    "storage_bucket": "kkr-ml.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:263973147754:android:19187f605ec0cbcc3e2613",
+        "android_client_info": {
+          "package_name": "com.example.kkr_ml_classes"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "263973147754-262vpf3vapkppp0ef3a7ssh4m0o2vl8e.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.kkr_ml_classes",
+            "certificate_hash": "69de19c592d1a06207cf3b04487cd85c91d68e30"
+          }
+        },
+        {
+          "client_id": "263973147754-i9565cr6of7602lqcn91go1kjvhdg3f0.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB0hipPRO-jgAG9ar1IgDigRWgdsGtgvOg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "263973147754-i9565cr6of7602lqcn91go1kjvhdg3f0.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
